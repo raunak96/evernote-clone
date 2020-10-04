@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import ReactQuill from "react-quill";
 import BorderColorIcon from "@material-ui/icons/BorderColor";
-import useStyles from "./Editor.styles";
 import useDebounce from "../../custom-hooks/useDebounce";
 import { noteUpdate } from "../../firebase.config";
-
+import useStyles from "./Editor.styles";
 
 const Editor = ({selectedNote}) => {
 

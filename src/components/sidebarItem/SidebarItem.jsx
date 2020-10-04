@@ -1,9 +1,10 @@
 import React from 'react';
-import useStyles from "./SidebarItem.styles";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { removeHTMLTags } from "../../helpers";
+import useStyles from "./SidebarItem.styles";
+
 
 const SidebarItem = ({ note,selectedNoteIndex,selectNote,deleteNote }) => {
     const classes = useStyles();
